@@ -66,7 +66,7 @@ function App() {
           <Route path="/team" element={<Team isDarkTheme={isDarkTheme} />} />
           <Route path="/about" element={<About isDarkTheme={isDarkTheme} />} />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
