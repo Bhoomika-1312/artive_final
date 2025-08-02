@@ -131,6 +131,20 @@
     transform: translateY(-3px);
 }
 
+/* Blue button for Meet Our Team */
+.btn-blue {
+    background: linear-gradient(135deg, #3B82F6, #1D4ED8);
+    color: white;
+    border: 2px solid #3B82F6;
+    box-shadow: 0 4px 14px rgba(59, 130, 246, 0.3);
+}
+
+.btn-blue:hover {
+    background: linear-gradient(135deg, #1D4ED8, #1E40AF);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+}
+
 .hero-visual {
     flex: 1;
     position: relative;

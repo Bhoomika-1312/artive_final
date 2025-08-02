@@ -6,6 +6,7 @@ import Events from './pages/Events';
 import Artworks from './pages/Artworks';
 import Team from './pages/Team';
 import About from './pages/About';
+import AddArtwork from './pages/AddArtwork';
 import './App.css';
 
 function App() {
@@ -64,6 +65,7 @@ function App() {
           <Route path="/artworks" element={<Artworks isDarkTheme={isDarkTheme} />} />
           <Route path="/team" element={<Team isDarkTheme={isDarkTheme} />} />
           <Route path="/about" element={<About isDarkTheme={isDarkTheme} />} />
+          <Route path="/add-artwork" element={<AddArtwork isDarkTheme={isDarkTheme} />} />
         </Routes>
       </div>
     </Router>

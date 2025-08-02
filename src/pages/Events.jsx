@@ -170,20 +170,6 @@ const Events = ({ isDarkTheme }) => {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="events-cta">
-        <div className="container">
-          <div className="cta-content">
-            <h2>Want to Host an Event?</h2>
-            <p>Have a creative idea? We'd love to help you bring it to life!</p>
-            <button className="btn btn-primary">
-              <i className="fas fa-plus"></i>
-              Propose Event
-            </button>
-          </div>
-        </div>
-      </section>
-
       <Footer />
     </div>
   );

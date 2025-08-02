@@ -1,15 +1,36 @@
-/* Navigation */
+/* Navigation with Pastel Colors and Artistic Design */
 .navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(255, 255, 255, 0.95);
-    backdrop-filter: blur(15px);
+    background: rgba(255, 248, 250, 0.95);
+    backdrop-filter: blur(20px);
     z-index: 1000;
     padding: 1rem 0;
-    transition: all 0.3s ease;
-    border-bottom: 1px solid var(--border-color);
-    box-shadow: var(--shadow);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border-bottom: 2px solid rgba(255, 182, 193, 0.3);
+    box-shadow: 0 8px 32px rgba(255, 182, 193, 0.15);
+    animation: slideDown 0.6s ease-out;
+    transform: translateY(0);
+}
+
+.navbar.nav-hidden {
+    transform: translateY(-100%);
+}
+
+.navbar.nav-visible {
+    transform: translateY(0);
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .dark-theme .navbar {

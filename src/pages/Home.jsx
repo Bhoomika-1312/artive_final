@@ -127,7 +127,7 @@ const Home = ({ isDarkTheme }) => {
               <Link to="/about" className="btn btn-primary">
                 Learn More
               </Link>
-              <Link to="/team" className="btn btn-secondary">
+              <Link to="/team" className="btn btn-blue">
                 Meet Our Team
               </Link>
             </div>
