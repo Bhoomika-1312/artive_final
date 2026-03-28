@@ -14,7 +14,7 @@ const Footer = () => (
             {['facebook', 'instagram', 'twitter', 'linkedin'].map((name) => (
               <a
                 key={name}
-                href=""
+                href="/about"
                 className="w-10 h-10 rounded-full bg-gray-700 flex items-center justify-center text-gray-300 hover:bg-indigo-500 hover:text-white transition-colors"
                 aria-label={name}
               >
